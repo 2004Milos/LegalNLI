@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+nltk
+matplotlib
+seaborn
+torch>=2.1.0
+transformers>=4.35.0
+tqdm
+accelerate>=0.26.0

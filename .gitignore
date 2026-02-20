@@ -1,0 +1,57 @@
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ML / model artifacts (large, regeneratable)
+nltk_data/
+saved_nli_model/
+sentence_transformer_contradiction_model/
+bert_contradiction/
+
+# Data (often large; add to repo only if small/sample)
+data/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+.cache/
+
+# Hugging Face cache (optional, can be large)
+.cache/
+huggingface/
